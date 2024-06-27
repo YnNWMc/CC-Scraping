@@ -1,0 +1,11 @@
+python-logstash
+scrapy
+bs4
+flask
+elasticsearch
+logstash
+flask_cors
+json-logging-py
+pymongo
+Werkzeug
+pika

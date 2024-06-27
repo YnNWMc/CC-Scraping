@@ -1,0 +1,2 @@
+2024/06/27 04:45:25 [error] 41#41: *27 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.27.0.8, server: , request: "POST / HTTP/1.1", upstream: "http://172.27.0.9:5000/scrape", host: "proxy:3001"
+2024/06/27 04:59:50 [error] 37#37: *29 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.29.0.12, server: , request: "POST / HTTP/1.1", upstream: "http://172.29.0.9:5000/scrape", host: "proxy:3001"

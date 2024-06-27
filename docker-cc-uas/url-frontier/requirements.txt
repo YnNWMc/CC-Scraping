@@ -1,0 +1,8 @@
+python-logstash
+flask
+elasticsearch
+logstash
+flask_cors
+json-logging-py
+asyncio
+aiohttp

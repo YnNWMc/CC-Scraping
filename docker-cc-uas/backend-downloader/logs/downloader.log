@@ -1,0 +1,361 @@
+2024-06-27 04:55:23 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.7:5000
+2024-06-27 04:55:23 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.8:5000
+2024-06-27 04:55:23 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 04:55:23 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 04:55:23 INFO:  * Restarting with stat
+2024-06-27 04:55:23 INFO:  * Restarting with stat
+2024-06-27 04:55:23 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.9:5000
+2024-06-27 04:55:23 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 04:55:23 INFO:  * Restarting with stat
+2024-06-27 04:55:24 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.29.0.10:5000
+2024-06-27 04:55:24 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 04:55:24 INFO:  * Restarting with stat
+2024-06-27 04:55:24 WARNING:  * Debugger is active!
+2024-06-27 04:55:24 WARNING:  * Debugger is active!
+2024-06-27 04:55:24 INFO:  * Debugger PIN: 970-991-883
+2024-06-27 04:55:24 INFO:  * Debugger PIN: 347-047-027
+2024-06-27 04:55:24 WARNING:  * Debugger is active!
+2024-06-27 04:55:24 INFO:  * Debugger PIN: 332-085-879
+2024-06-27 04:55:24 WARNING:  * Debugger is active!
+2024-06-27 04:55:24 INFO:  * Debugger PIN: 118-340-743
+2024-06-27 04:56:58 INFO: 172.29.0.1 - - [27/Jun/2024 04:56:58] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 04:56:58 INFO: 172.29.0.1 - - [27/Jun/2024 04:56:58] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 04:57:03 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:03] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:04 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:04] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:11 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:11] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:12 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:12] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:19 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:19] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:20 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:20] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:29 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:29] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:30 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:30] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:42 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:42] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:57:43 INFO: 172.29.0.2 - - [27/Jun/2024 04:57:43] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:58:10 INFO: 172.29.0.2 - - [27/Jun/2024 04:58:10] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:58:11 INFO: 172.29.0.2 - - [27/Jun/2024 04:58:11] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:58:30 INFO: 172.29.0.2 - - [27/Jun/2024 04:58:30] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 04:58:31 INFO: 172.29.0.2 - - [27/Jun/2024 04:58:31] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:01:09 INFO: 172.29.0.2 - - [27/Jun/2024 05:01:09] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:56:52 INFO: 172.29.0.12 - - [27/Jun/2024 05:56:52] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 05:57:15 INFO: 172.29.0.2 - - [27/Jun/2024 05:57:15] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:57:16 INFO: 172.29.0.2 - - [27/Jun/2024 05:57:16] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:57:39 INFO: 172.29.0.2 - - [27/Jun/2024 05:57:39] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:57:40 INFO: 172.29.0.2 - - [27/Jun/2024 05:57:40] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:58:04 INFO: 172.29.0.2 - - [27/Jun/2024 05:58:04] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:58:05 INFO: 172.29.0.2 - - [27/Jun/2024 05:58:05] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:58:31 INFO: 172.29.0.2 - - [27/Jun/2024 05:58:31] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:58:32 INFO: 172.29.0.2 - - [27/Jun/2024 05:58:32] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:59:01 INFO: 172.29.0.2 - - [27/Jun/2024 05:59:01] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:59:02 INFO: 172.29.0.2 - - [27/Jun/2024 05:59:02] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:59:32 INFO: 172.29.0.2 - - [27/Jun/2024 05:59:32] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 05:59:33 INFO: 172.29.0.2 - - [27/Jun/2024 05:59:33] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:00:11 INFO: 172.29.0.2 - - [27/Jun/2024 06:00:11] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:00:12 INFO: 172.29.0.2 - - [27/Jun/2024 06:00:12] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:00:47 INFO: 172.29.0.2 - - [27/Jun/2024 06:00:47] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:01:26 INFO: 172.29.0.2 - - [27/Jun/2024 06:01:26] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:01:27 INFO: 172.29.0.2 - - [27/Jun/2024 06:01:27] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:02:05 INFO: 172.29.0.2 - - [27/Jun/2024 06:02:05] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:02:06 INFO: 172.29.0.2 - - [27/Jun/2024 06:02:06] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:02:45 INFO: 172.29.0.2 - - [27/Jun/2024 06:02:45] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:03:28 INFO: 172.29.0.2 - - [27/Jun/2024 06:03:28] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:03:29 INFO: 172.29.0.2 - - [27/Jun/2024 06:03:29] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:04:15 INFO: 172.29.0.2 - - [27/Jun/2024 06:04:15] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:04:16 INFO: 172.29.0.2 - - [27/Jun/2024 06:04:16] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:07:33 INFO: 172.29.0.1 - - [27/Jun/2024 06:07:33] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 06:07:33 INFO: 172.29.0.1 - - [27/Jun/2024 06:07:33] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 06:08:00 INFO: 172.29.0.12 - - [27/Jun/2024 06:08:00] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 06:08:51 INFO: 172.29.0.2 - - [27/Jun/2024 06:08:51] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 06:08:52 INFO: 172.29.0.2 - - [27/Jun/2024 06:08:52] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:02:08 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.0.7:5000
+2024-06-27 07:02:08 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:02:08 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.0.8:5000
+2024-06-27 07:02:08 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:02:08 INFO:  * Restarting with stat
+2024-06-27 07:02:08 INFO:  * Restarting with stat
+2024-06-27 07:02:08 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.0.9:5000
+2024-06-27 07:02:08 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:02:08 INFO:  * Restarting with stat
+2024-06-27 07:02:08 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.0.10:5000
+2024-06-27 07:02:08 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:02:08 INFO:  * Restarting with stat
+2024-06-27 07:02:09 WARNING:  * Debugger is active!
+2024-06-27 07:02:09 WARNING:  * Debugger is active!
+2024-06-27 07:02:09 INFO:  * Debugger PIN: 395-137-839
+2024-06-27 07:02:09 INFO:  * Debugger PIN: 274-674-746
+2024-06-27 07:02:09 WARNING:  * Debugger is active!
+2024-06-27 07:02:09 INFO:  * Debugger PIN: 660-295-723
+2024-06-27 07:02:09 WARNING:  * Debugger is active!
+2024-06-27 07:02:09 INFO:  * Debugger PIN: 868-927-639
+2024-06-27 07:03:41 INFO: 172.31.0.1 - - [27/Jun/2024 07:03:41] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 07:03:41 INFO: 172.31.0.1 - - [27/Jun/2024 07:03:41] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:03:43 INFO: 172.31.0.1 - - [27/Jun/2024 07:03:43] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:08:06 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.9:5000
+2024-06-27 07:08:06 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:08:06 INFO:  * Restarting with stat
+2024-06-27 07:08:06 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.10:5000
+2024-06-27 07:08:06 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:08:06 INFO:  * Restarting with stat
+2024-06-27 07:08:06 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.12:5000
+2024-06-27 07:08:06 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:08:06 INFO:  * Restarting with stat
+2024-06-27 07:08:06 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.11:5000
+2024-06-27 07:08:06 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:08:06 INFO:  * Restarting with stat
+2024-06-27 07:08:06 WARNING:  * Debugger is active!
+2024-06-27 07:08:06 INFO:  * Debugger PIN: 612-933-698
+2024-06-27 07:08:07 WARNING:  * Debugger is active!
+2024-06-27 07:08:07 INFO:  * Debugger PIN: 133-604-762
+2024-06-27 07:08:07 WARNING:  * Debugger is active!
+2024-06-27 07:08:07 INFO:  * Debugger PIN: 911-092-941
+2024-06-27 07:08:07 WARNING:  * Debugger is active!
+2024-06-27 07:08:07 INFO:  * Debugger PIN: 656-104-482
+2024-06-27 07:08:30 INFO: 192.168.16.1 - - [27/Jun/2024 07:08:30] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 07:08:30 INFO: 192.168.16.1 - - [27/Jun/2024 07:08:30] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:08:33 INFO: 192.168.16.1 - - [27/Jun/2024 07:08:33] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:09:49 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.12:5000
+2024-06-27 07:09:49 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:09:49 INFO:  * Restarting with stat
+2024-06-27 07:09:49 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.9:5000
+2024-06-27 07:09:49 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:09:49 INFO:  * Restarting with stat
+2024-06-27 07:09:49 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.10:5000
+2024-06-27 07:09:49 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:09:49 INFO:  * Restarting with stat
+2024-06-27 07:09:49 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.11:5000
+2024-06-27 07:09:49 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:09:49 INFO:  * Restarting with stat
+2024-06-27 07:09:50 WARNING:  * Debugger is active!
+2024-06-27 07:09:50 WARNING:  * Debugger is active!
+2024-06-27 07:09:50 WARNING:  * Debugger is active!
+2024-06-27 07:09:50 INFO:  * Debugger PIN: 133-604-762
+2024-06-27 07:09:50 INFO:  * Debugger PIN: 886-213-218
+2024-06-27 07:09:50 INFO:  * Debugger PIN: 137-326-340
+2024-06-27 07:09:50 WARNING:  * Debugger is active!
+2024-06-27 07:09:50 INFO:  * Debugger PIN: 522-756-653
+2024-06-27 07:10:22 INFO: 192.168.16.1 - - [27/Jun/2024 07:10:22] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 07:10:22 INFO: 192.168.16.1 - - [27/Jun/2024 07:10:22] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:11:30 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.10:5000
+2024-06-27 07:11:30 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:11:30 INFO:  * Restarting with stat
+2024-06-27 07:11:31 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.11:5000
+2024-06-27 07:11:31 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:11:31 INFO:  * Restarting with stat
+2024-06-27 07:11:31 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.12:5000
+2024-06-27 07:11:31 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:11:31 INFO:  * Restarting with stat
+2024-06-27 07:11:31 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.9:5000
+2024-06-27 07:11:31 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:11:31 INFO:  * Restarting with stat
+2024-06-27 07:11:31 WARNING:  * Debugger is active!
+2024-06-27 07:11:31 INFO:  * Debugger PIN: 886-213-218
+2024-06-27 07:11:31 WARNING:  * Debugger is active!
+2024-06-27 07:11:31 INFO:  * Debugger PIN: 785-796-666
+2024-06-27 07:11:31 WARNING:  * Debugger is active!
+2024-06-27 07:11:31 INFO:  * Debugger PIN: 911-092-941
+2024-06-27 07:11:31 WARNING:  * Debugger is active!
+2024-06-27 07:11:32 INFO:  * Debugger PIN: 172-822-928
+2024-06-27 07:12:22 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.11:5000
+2024-06-27 07:12:22 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:12:22 INFO:  * Restarting with stat
+2024-06-27 07:12:23 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.10:5000
+2024-06-27 07:12:23 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:12:23 INFO:  * Restarting with stat
+2024-06-27 07:12:23 WARNING:  * Debugger is active!
+2024-06-27 07:12:23 INFO:  * Debugger PIN: 656-104-482
+2024-06-27 07:12:23 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.12:5000
+2024-06-27 07:12:23 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:12:23 INFO:  * Restarting with stat
+2024-06-27 07:12:23 WARNING:  * Debugger is active!
+2024-06-27 07:12:23 INFO:  * Debugger PIN: 475-956-397
+2024-06-27 07:12:23 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.16.9:5000
+2024-06-27 07:12:23 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:12:23 INFO:  * Restarting with stat
+2024-06-27 07:12:24 WARNING:  * Debugger is active!
+2024-06-27 07:12:24 INFO:  * Debugger PIN: 911-092-941
+2024-06-27 07:12:24 WARNING:  * Debugger is active!
+2024-06-27 07:12:24 INFO:  * Debugger PIN: 172-822-928
+2024-06-27 07:12:54 INFO: 192.168.16.1 - - [27/Jun/2024 07:12:54] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 07:12:54 INFO: 192.168.16.1 - - [27/Jun/2024 07:12:54] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:13:01 INFO: 192.168.16.1 - - [27/Jun/2024 07:13:01] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 07:13:01 INFO: 192.168.16.1 - - [27/Jun/2024 07:13:01] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:23:06 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.48.7:5000
+2024-06-27 07:23:06 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:23:06 INFO:  * Restarting with stat
+2024-06-27 07:23:06 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.48.8:5000
+2024-06-27 07:23:06 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:23:06 INFO:  * Restarting with stat
+2024-06-27 07:23:07 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.48.10:5000
+2024-06-27 07:23:07 WARNING:  * Debugger is active!
+2024-06-27 07:23:07 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:23:07 INFO:  * Debugger PIN: 618-556-424
+2024-06-27 07:23:07 INFO:  * Restarting with stat
+2024-06-27 07:23:07 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.48.9:5000
+2024-06-27 07:23:07 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:23:07 INFO:  * Restarting with stat
+2024-06-27 07:23:07 WARNING:  * Debugger is active!
+2024-06-27 07:23:07 INFO:  * Debugger PIN: 905-064-353
+2024-06-27 07:23:07 WARNING:  * Debugger is active!
+2024-06-27 07:23:07 WARNING:  * Debugger is active!
+2024-06-27 07:23:08 INFO:  * Debugger PIN: 422-457-515
+2024-06-27 07:23:08 INFO:  * Debugger PIN: 142-140-957
+2024-06-27 07:32:50 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.80.11:5000
+2024-06-27 07:32:50 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:32:50 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.80.8:5000
+2024-06-27 07:32:50 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:32:50 INFO:  * Restarting with stat
+2024-06-27 07:32:50 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.80.9:5000
+2024-06-27 07:32:50 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:32:50 INFO:  * Restarting with stat
+2024-06-27 07:32:50 INFO:  * Restarting with stat
+2024-06-27 07:32:50 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.80.12:5000
+2024-06-27 07:32:50 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:32:50 INFO:  * Restarting with stat
+2024-06-27 07:32:50 WARNING:  * Debugger is active!
+2024-06-27 07:32:50 INFO:  * Debugger PIN: 143-976-811
+2024-06-27 07:32:50 WARNING:  * Debugger is active!
+2024-06-27 07:32:50 INFO:  * Debugger PIN: 299-495-400
+2024-06-27 07:32:50 WARNING:  * Debugger is active!
+2024-06-27 07:32:51 INFO:  * Debugger PIN: 658-769-019
+2024-06-27 07:32:51 WARNING:  * Debugger is active!
+2024-06-27 07:32:51 INFO:  * Debugger PIN: 533-941-587
+2024-06-27 07:33:50 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.8:5000
+2024-06-27 07:33:50 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:33:50 INFO:  * Restarting with stat
+2024-06-27 07:33:50 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.9:5000
+2024-06-27 07:33:50 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:33:50 INFO:  * Restarting with stat
+2024-06-27 07:33:51 WARNING:  * Debugger is active!
+2024-06-27 07:33:51 INFO:  * Debugger PIN: 125-123-519
+2024-06-27 07:33:51 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.7:5000
+2024-06-27 07:33:51 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:33:51 INFO:  * Restarting with stat
+2024-06-27 07:33:51 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.112.10:5000
+2024-06-27 07:33:51 INFO: [33mPress CTRL+C to quit[0m
+2024-06-27 07:33:51 INFO:  * Restarting with stat
+2024-06-27 07:33:51 WARNING:  * Debugger is active!
+2024-06-27 07:33:51 INFO:  * Debugger PIN: 807-900-729
+2024-06-27 07:33:52 WARNING:  * Debugger is active!
+2024-06-27 07:33:52 WARNING:  * Debugger is active!
+2024-06-27 07:33:52 INFO:  * Debugger PIN: 646-897-225
+2024-06-27 07:33:52 INFO:  * Debugger PIN: 108-249-629
+2024-06-27 07:34:58 INFO: 192.168.112.1 - - [27/Jun/2024 07:34:58] "OPTIONS /scrape HTTP/1.1" 200 -
+2024-06-27 07:34:58 INFO: 192.168.112.1 - - [27/Jun/2024 07:34:58] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:35:05 INFO: 192.168.112.3 - - [27/Jun/2024 07:35:05] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:35:06 INFO: 192.168.112.3 - - [27/Jun/2024 07:35:06] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:35:13 INFO: 192.168.112.3 - - [27/Jun/2024 07:35:13] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:35:14 INFO: 192.168.112.3 - - [27/Jun/2024 07:35:14] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:47:00 INFO: 192.168.112.12 - - [27/Jun/2024 07:47:00] "POST /scrape HTTP/1.1" 200 -
+2024-06-27 07:47:14 INFO: 192.168.112.3 - - [27/Jun/2024 07:47:14] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:47:15 INFO: 192.168.112.3 - - [27/Jun/2024 07:47:15] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:47:27 INFO: 192.168.112.3 - - [27/Jun/2024 07:47:27] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:47:40 INFO: 192.168.112.3 - - [27/Jun/2024 07:47:40] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:47:41 INFO: 192.168.112.3 - - [27/Jun/2024 07:47:41] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:47:56 INFO: 192.168.112.3 - - [27/Jun/2024 07:47:56] "POST /scrape HTTP/1.0" 200 -
+2024-06-27 07:47:57 INFO: 192.168.112.3 - - [27/Jun/2024 07:47:57] "POST /scrape HTTP/1.0" 200 -
