@@ -13,9 +13,9 @@ services:
     volumes:
       - ./frontend:/var/www/html
     environment:
-      - BACKEND_HOST=localhost
+      - BACKEND_HOST=54.204.230.86
       - BACKEND_PORT=5000
-      - BACKEND_HOST_URL=localhost
+      - BACKEND_HOST_URL=54.204.230.86
       - BACKEND_PORT_URL=5001
     depends_on:
       - api-url
@@ -43,7 +43,7 @@ services:
       - MONGODB_USER=user
       - MONGODB_PASSWORD=pass
       - MONGODB_PORT=27017
-      - API_URL_HOST=localhost
+      - API_URL_HOST=54.204.230.86
       - API_URL_PORT=5001
     restart: always
     volumes:
@@ -58,7 +58,7 @@ services:
       - MONGODB_USER=user
       - MONGODB_PASSWORD=pass
       - MONGODB_PORT=27017
-      - API_URL_HOST=localhost
+      - API_URL_HOST=54.204.230.86
       - API_URL_PORT=5001
     restart: always
     volumes:
@@ -73,7 +73,7 @@ services:
       - MONGODB_USER=user
       - MONGODB_PASSWORD=pass
       - MONGODB_PORT=27017
-      - API_URL_HOST=localhost
+      - API_URL_HOST=54.204.230.86
       - API_URL_PORT=5001
     restart: always
     volumes:
@@ -88,7 +88,7 @@ services:
       - MONGODB_USER=user
       - MONGODB_PASSWORD=pass
       - MONGODB_PORT=27017
-      - API_URL_HOST=localhost
+      - API_URL_HOST=54.204.230.86
       - API_URL_PORT=5001
     restart: always
     volumes:

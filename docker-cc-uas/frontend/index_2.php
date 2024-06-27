@@ -101,7 +101,7 @@
                 processing: true,
                 responsive: true, // Enable responsive feature
                 ajax: {
-                    url: `http://localhost:5002/geturlqueue`,
+                    url: `http://54.204.230.86:5002/geturlqueue`,
                     type: 'GET',
                     dataSrc: function(json) {
                         // Transform the API response to DataTables compatible format
@@ -170,7 +170,7 @@
                 console.log(scrapeStatus);
 
                 $.ajax({
-                    url: 'http://localhost:5002/changestatus',
+                    url: 'http://54.204.230.86:5002/changestatus',
                     type: 'PUT',
                     contentType: 'application/json',
                     data: JSON.stringify({
