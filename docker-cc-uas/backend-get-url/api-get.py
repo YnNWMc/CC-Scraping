@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for all origins on all routes
 
 # Setup MongoDB client
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://54.204.230.86:27017/')
 db = client['cc-webcrawl']  # replace with your database name
 collection = db['webcrawl']  # replace with your collection name
 
