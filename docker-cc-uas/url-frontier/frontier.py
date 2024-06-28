@@ -7,15 +7,9 @@ import aiohttp
 import logging
 
 # from scrapy.crawler import crawler
-app = Flask(__name__)
 
-# Configure CORS to allow requests from specific origins and methods
-cors = CORS(app, resources={
-    r"/*": {
-        "origins": "http://54.204.230.86",  # Replace with your frontend origin
-        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
-    }
-})
+app = Flask(__name__)
+CORS(app)  # Enable CORS for all origins on all routes
 # Set up logging
 log_filename = '/logs/frontier.log'  # Define the log file path
 
@@ -76,7 +70,7 @@ def changestatus():
     status = data.get('status')
     scraping_status = status
     logging.info(f'Scraping status changed to: {status}')
-    asyncio.run(send_data_async("http://54.204.230.86:5000/scrape"))  # Ganti dengan URL API tujuan
+    asyncio.run(send_data_async("http://api-downloader:5000/scrape"))  # Ganti dengan URL API tujuan
     return jsonify({'message': ' Status Changed'}), 200
 
 if __name__ == '__main__':
