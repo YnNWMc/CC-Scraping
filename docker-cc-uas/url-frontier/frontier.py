@@ -70,7 +70,7 @@ def changestatus():
     status = data.get('status')
     scraping_status = status
     logging.info(f'Scraping status changed to: {status}')
-    asyncio.run(send_data_async("http://api-downloader:5000/scrape"))  # Ganti dengan URL API tujuan
+    asyncio.run(send_data_async("http://proxy:3001"))  # Ganti dengan URL API tujuan
     return jsonify({'message': ' Status Changed'}), 200
 
 if __name__ == '__main__':
