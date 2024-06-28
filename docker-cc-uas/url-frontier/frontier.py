@@ -7,9 +7,15 @@ import aiohttp
 import logging
 
 # from scrapy.crawler import crawler
-
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all origins on all routes
+
+# Configure CORS to allow requests from specific origins and methods
+cors = CORS(app, resources={
+    r"/*": {
+        "origins": "http://54.204.230.86",  # Replace with your frontend origin
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"]
+    }
+})
 # Set up logging
 log_filename = '/logs/frontier.log'  # Define the log file path
 
