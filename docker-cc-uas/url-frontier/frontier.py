@@ -6,6 +6,8 @@ import asyncio
 import aiohttp
 import logging
 
+# from scrapy.crawler import crawler
+
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all origins on all routes
 # Set up logging
@@ -70,9 +72,6 @@ def changestatus():
     logging.info(f'Scraping status changed to: {status}')
     asyncio.run(send_data_async("http://api-downloader:5000/scrape"))  # Ganti dengan URL API tujuan
     return jsonify({'message': ' Status Changed'}), 200
-
-
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5002,debug=True)
