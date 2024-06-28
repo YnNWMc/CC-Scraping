@@ -85,7 +85,6 @@ def fetch_search_result():
         return jsonify({'error': 'No search query provided'}), 400
 
     try:
-        # MongoDB query to search for matching titles, content, and set_url based on the query
         search_filter = {
             "$or": [
                 {"title": {"$regex": query, "$options": "i"}},
@@ -94,7 +93,6 @@ def fetch_search_result():
         }
         results = collection.find(search_filter, {"title": 1, "content": 1, "set_url": 1})
 
-        # Structure the results
         search_results = [
             {
                 'title': result.get('title'),
@@ -104,12 +102,13 @@ def fetch_search_result():
             for result in results
         ]
 
-        logging.info(f"Search results fetched for query: {query}", "api-get.py")
+        logging.info(f"Search results fetched for query: {query}")
         return jsonify(search_results), 200
 
     except Exception as e:
-        logging.error(f"Error fetching search results: {e}", "api-get.py")
-        return jsonify({'error': str(e)}), 500
+        logging.error(f"Error fetching search results: {e}")
+        return jsonify({'error': 'Internal server error'}), 500
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5002,debug=True)
