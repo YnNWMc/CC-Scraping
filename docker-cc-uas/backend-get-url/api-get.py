@@ -4,9 +4,14 @@ import requests
 from flask_cors import CORS
 import re
 from datetime import datetime, timedelta
+from pymongo import MongoClient
+
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all origins on all routes
+client = MongoClient('mongodb://user:pass@54.204.230.86:27017/')
+db = client['cc-webcrawl']  # replace with your database name
+collection = db['webcrawl']  # replace with your collection name
 
 def is_valid_url(url):
     # Regular expression for validating a URL
@@ -199,5 +204,37 @@ def fetch_recently_created():
 
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+    
+    
+@app.route('/fetch-search-result', methods=["GET"])
+def fetch_search_result():
+    query = request.args.get('query', '').strip()
+    if not query:
+        return jsonify({'error': 'No search query provided'}), 400
+
+    try:
+        search_filter = {
+            "$or": [
+                {"title": {"$regex": query, "$options": "i"}},
+                {"content": {"$regex": query, "$options": "i"}}
+            ]
+        }
+        results = collection.find(search_filter, {"title": 1, "content": 1, "set_url": 1})
+
+        search_results = [
+            {
+                'title': result.get('title'),
+                'content': result.get('content'),
+                'set_url': result.get('set_url')[0] if 'set_url' in result and result.get('set_url') else ''
+            }
+            for result in results
+        ]
+
+        logging.info(f"Search results fetched for query: {query}")
+        return jsonify(search_results), 200
+
+    except Exception as e:
+        logging.error(f"Error fetching search results: {e}")
+        return jsonify({'error': 'Internal server error'}), 500
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=5001)

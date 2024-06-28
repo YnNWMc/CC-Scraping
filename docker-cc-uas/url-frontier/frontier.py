@@ -5,13 +5,6 @@ import sys, os
 import asyncio
 import aiohttp
 import logging
-from pymongo import MongoClient
-
-# from scrapy.crawler import crawler
-# Setup MongoDB client
-client = MongoClient('mongodb://user:pass@54.204.230.86:27017/')
-db = client['cc-webcrawl']  # replace with your database name
-collection = db['webcrawl']  # replace with your collection name
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all origins on all routes
@@ -78,36 +71,7 @@ def changestatus():
     asyncio.run(send_data_async("http://api-downloader:5000/scrape"))  # Ganti dengan URL API tujuan
     return jsonify({'message': ' Status Changed'}), 200
 
-@app.route('/fetch-search-result', methods=["GET"])
-def fetch_search_result():
-    query = request.args.get('query', '').strip()
-    if not query:
-        return jsonify({'error': 'No search query provided'}), 400
 
-    try:
-        search_filter = {
-            "$or": [
-                {"title": {"$regex": query, "$options": "i"}},
-                {"content": {"$regex": query, "$options": "i"}}
-            ]
-        }
-        results = collection.find(search_filter, {"title": 1, "content": 1, "set_url": 1})
-
-        search_results = [
-            {
-                'title': result.get('title'),
-                'content': result.get('content'),
-                'set_url': result.get('set_url')[0] if 'set_url' in result and result.get('set_url') else ''
-            }
-            for result in results
-        ]
-
-        logging.info(f"Search results fetched for query: {query}")
-        return jsonify(search_results), 200
-
-    except Exception as e:
-        logging.error(f"Error fetching search results: {e}")
-        return jsonify({'error': 'Internal server error'}), 500
 
 
 if __name__ == '__main__':
