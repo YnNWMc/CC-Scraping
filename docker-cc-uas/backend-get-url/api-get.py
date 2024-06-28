@@ -208,34 +208,34 @@ def fetch_recently_created():
     
 @app.route('/fetch_search_result', methods=["GET"])
 def fetch_search_result():
-    query = request.args.get('query', '').strip()
-    if not query:
-        return jsonify({'error': 'No search query provided'}), 400
+    return jsonify('test'), 200
 
-    try:
-        # MongoDB query to search for matching titles, content, and set_url based on the query
-        search_filter = {
-            "$or": [
-                {"title": {"$regex": query, "$options": "i"}},
-                {"content": {"$regex": query, "$options": "i"}}
-            ]
-        }
-        results = collection.find(search_filter, {"title": 1, "content": 1, "set_url": 1})
+    # query = request.args.get('query', '').strip()
+    # if not query:
+    #     return jsonify({'error': 'No search query provided'}), 400
 
-        # Structure the results
-        search_results = [
-            {
-                'title': result.get('title'),
-                'content': result.get('content'),
-                'set_url': result.get('set_url')[0] if 'set_url' in result and result.get('set_url') else ''
-            }
-            for result in results
-        ]
+    # try:
+    #     # MongoDB query to search for matching titles, content, and set_url based on the query
+    #     search_filter = {
+    #         "$or": [
+    #             {"title": {"$regex": query, "$options": "i"}},
+    #             {"content": {"$regex": query, "$options": "i"}}
+    #         ]
+    #     }
+    #     results = collection.find(search_filter, {"title": 1, "content": 1, "set_url": 1})
 
-        return jsonify(search_results), 200
-
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+    #     # Structure the results
+    #     search_results = [
+    #         {
+    #             'title': result.get('title'),
+    #             'content': result.get('content'),
+    #             'set_url': result.get('set_url')[0] if 'set_url' in result and result.get('set_url') else ''
+    #         }
+    #         for result in results
+    #     ]
+        
+    # except Exception as e:
+    #     return jsonify({'error': str(e)}), 500
     
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=5001)
