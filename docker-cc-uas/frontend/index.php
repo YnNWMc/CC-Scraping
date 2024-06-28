@@ -37,7 +37,7 @@
                 <input type="text" id="url" name="url" class="form-control" required>
             </div>
             
-            <button onclick="window.location.href='index_2.php'" type="submit" class="btn btn-primary">Start Scraping</button>
+            <!-- <button onclick="window.location.href='index_2.php'" type="submit" class="btn btn-primary">Start Scraping</button> -->
         </form>
         
 
@@ -71,6 +71,7 @@
                         console.log('Scraping initiated:', data);
                         $('#scrapingMessage').text('Scraping initiated. Please wait for results.');
                         $('#stopScraping').show(); // Show stop button if needed
+                        window.location.href = 'index_2.php';
                     },
                     error: function(xhr, status, error) {
                         let fetchInfo = {
