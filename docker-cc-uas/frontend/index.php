@@ -61,7 +61,6 @@
             $('#scrapeForm').submit(function(event) {
                 event.preventDefault();
                 let url = $('#url').val();
-
                 $.ajax({
                     url: `http://${host}:${port}/scrape`,
                     type: 'POST',
