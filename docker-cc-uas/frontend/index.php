@@ -37,7 +37,7 @@
                 <input type="text" id="url" name="url" class="form-control" required>
             </div>
             
-            <!-- <button onclick="window.location.href='index_2.php'" type="submit" class="btn btn-primary">Start Scraping</button> -->
+            <button type="submit" class="btn btn-primary">Start Scraping</button>
         </form>
         
 
