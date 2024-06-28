@@ -120,12 +120,7 @@
                 });
             }
 
-            // Munculin Modal Full URL (hapus aja kalo ga butuh)
-            $('#urlDBTable').on('click', '.truncate-text', function() {
-                var url = $(this).attr('title');
-                $('#urlModalBody').html('<p>' + url + '</p>');
-                $('#urlModal').modal('show');
-            });
+            
 
 
             

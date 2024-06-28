@@ -85,7 +85,7 @@
             const port = <?php echo getenv("BACKEND_PORT"); ?>;
             const host_url = "<?php echo getenv("BACKEND_HOST_URL"); ?>";
             const port_url = <?php echo getenv("BACKEND_PORT_URL"); ?>;
-            
+
             setInterval(updateDataTable, 10000);
 
             function updateDataTable() {
@@ -164,6 +164,7 @@
             });
 
             // Event listener for form submit
+            // Event listener for form submit
             $('#scrapeForm').submit(function(event) {
                 event.preventDefault();
                 let scrapeStatus = $('input[name="scrape_status"]:checked').val();
@@ -176,29 +177,26 @@
                     data: JSON.stringify({
                         status: scrapeStatus
                     }),
+                    headers: {
+                        'Access-Control-Allow-Origin': 'http://54.204.230.86' // Specify your frontend origin here
+                    },
                     success: function(data) {
-                        console.log('Scraping initiated:', data);
-                        $('#scrapingMessage').text('Scraping initiated. Please wait for results.');
+                        console.log('Scraping status changed:', data);
+                        $('#scrapingMessage').text('Scraping status changed.');
                         $('#stopScraping').show(); // Show stop button if needed
                     },
+                    error: function(xhr, status, error) {
+                        console.error('Error changing scraping status:', error);
+                        // Handle error appropriately
+                    }
                 });
             });
 
-
-            function updateUIWithScrapedData(data, which = 'urlList') {
-                var table = $('#urlDBTable').DataTable(); // Get reference to the DataTable instance
-                table.clear().draw(); // Clear existing data from DataTable without redrawing
-
-                data.forEach(item => {
-                    // Append new rows to the DataTable
-                    table.row.add([
-                        item[0], // ID
-                        item[1], // URL
-                        item[2], // Status
-                        item[3], // Web ID
-                        item[4] // Created At
-                    ]).draw(false); // Draw without resetting the table
-                });
-            }
+            // Munculin Modal Full URL (hapus aja kalo ga butuh)
+            $('#recentlyScrapedTable').on('click', '.truncate-text', function() {
+                var url = $(this).attr('title');
+                $('#urlModalBody').html('<p>' + url + '</p>');
+                $('#urlModal').modal('show');
+            });
         });
     </script>
